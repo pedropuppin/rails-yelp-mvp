@@ -14,6 +14,8 @@ puts "Creating restaurants..."
     name: Faker::Restaurant.name,
     address: Faker::Address.street_address,
     phone_number: Faker::Base.numerify('+55 (##)#####-####'),
-    category: %w[chinese italian japanese french belgian].sample
+    category: %w[Chinese Italian Japanese French Belgian].sample
   )
 end
+
+puts "Succes!"
